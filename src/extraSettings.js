@@ -9,7 +9,7 @@ let extraScore = 1;
 let wuDi = true;
 
 // 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
-let firstFruit = 9;
+let firstFruit = 8;
 
 // 水果合成反转：false 改为 true
 let reverseLevelUp = true;
@@ -19,7 +19,7 @@ const minRandomFruitNum = reverseLevelUp ? 6 : 0; // 生成随机水果最小值
 const maxRandomFruitNum = reverseLevelUp ? 9 : 4; // 生成随机水果最大值（1-11）0 为葡萄，9 为半个西瓜
 let setFruits = {
   // 指定前几次生成的水果，可填入任意数量的数字，0 为葡萄，9 为半个西瓜
-  startFruits: reverseLevelUp ? [9, 8, 8, 7, 7, 6] : [0, 0, 1, 2, 2, 3],
+  startFruits: reverseLevelUp ? [8, 7, 7, 6, 6, 5] : [0, 0, 1, 2, 2, 3],
   randomFunction: () => {
     return minRandomFruitNum + Math.floor(Math.random() * (maxRandomFruitNum - minRandomFruitNum));
   }
