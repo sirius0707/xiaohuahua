@@ -38,7 +38,7 @@ let clickChangeFruit = false;
 let adLink = 'https://weibo.com/u/5617256267?from=feed&loc=at&nick=SNH48-%E5%BC%A0%E6%80%80%E7%91%BE';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '花妈物语';
+document.getElementsByTagName("title")[0].innerText = '瑾花大作战';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
